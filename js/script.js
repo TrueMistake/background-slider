@@ -38,5 +38,5 @@ function funcArrow() {
         activeSlide();
     })
 }
-
+activeSlide();
 funcArrow();
