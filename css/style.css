@@ -56,6 +56,9 @@ body:before{
     cursor: pointer;
     left: calc(15vw - 65px);
 }
+.slide-prev:before{
+    content: '<';
+}
 .slide-next{
     position: fixed;
     background-color: transparent;
@@ -67,4 +70,7 @@ body:before{
     transform: translateY(-50%);
     cursor: pointer;
     right: calc(15vw - 65px);
+}
+.slide-next:before{
+    content: '>';
 }
